@@ -12,28 +12,29 @@
     </head>
     <body>
         <div class="container">
-        <h3>Contact Us</h3>
-
-            <form>
+            <form action="action_page.php">
                 <div class="form-group">
-                    <label for="usr">Name</label>
-                    <input type="text" class="form-control" id="usr" placeholder="Enter your name..." required>
-                  </div>
-                  <div class="form-group">
-                    <label for="pwd">Password</label>
-                    <input type="password" class="form-control" id="pwd" placeholder="Enter your password...">
-                  </div>
-                  <div class="form-group">
-                      <label for="email">E-mail Address</label>
-                      <input type="email" class="form-control" id="email" placeholder="Enter your e-mail..." required>
-                  </div>
-                  <div class="form-group">
-                    <label for="comments">Text</label>
-                    <textarea class="form-control" rows="10" id="comments" placeholder="Additional Info..." required></textarea>
-                  </div>
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Enter your first name..." required ><br>
+                </div>
+                <div class="form-group">    
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Enter your last name..." ><br>
+                </div>
+                <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="e-mail" placeholder="Enter your e-mail address..." required ><br>
+                </div>
+                <div class="form-group">
+                <label for="inquiry">Inquiry</label><br>
+                <textarea id="inquiry" name="inquiry" placeholder="Write something..." style="height: 200px;"></textarea><br>
+                </div>
 
-                
+                <button type="submit" class="btn btn-default">Submit</button>
             </form>
-        </div>    
+
+        </div>
+
+         
     </body>
 </html>
