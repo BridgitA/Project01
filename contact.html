@@ -12,22 +12,18 @@
     </head>
     <body>
         <header>Contact Us:</header>
-        <main>
             <form>
-                <fieldset>
-                    First Name: <input name="firstName" type="text" placeholder="Enter your first name" required="required" />
-                    Last Name: <input name="lastName" type="text" placeholder="Enter your last name" /> <br>
-                    Email Address: <input name="emailAddress" type="text" placeholder="Enter your e-mail address" required="required" />
-                    <br >
+                <div class="form-group">
+                    <label for="usr">Name:</label>
+                    <input type="text" class="form-control" id="usr">
+                  </div>
+                  <div class="form-group">
+                    <label for="pwd">Password:</label>
+                    <input type="password" class="form-control" id="pwd">
+                  </div>
+
                 
-                <label for="service">Message:</label> <br>
-                    <textarea name="message" rows="7" cols="80" required="required"> 
-                        Let us know how we can help.....
-                    </textarea> <br>
-                    <button type="button" class="btn btn-lg btn-primary">Submit</button>
-                </fieldset>    
             </form>
 
-        </main>
     </body>
 </html>

@@ -1,40 +1,36 @@
 <!DOCTYPE html>
 <html lang="en-US">
     <head>
+        <title>Personal Page</title>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width = device-width, initial-scale = 1">
         <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-        <title>Personal Page</title>
         <link rel="stylesheet" href="css/style.css" />
     </head>
     <body>
-        <header>
-            <h1>Event Planner</h1>
-            <nav>
-                
-                <ul class="nav">
-                    <li><h3><a href="#home">Home</a></h3></li>
-                    <li><h3><a href="#about">About Us</a></h3></li>
-                    <li><h3><a href="services">Services</a></h3></li>
-                    <li><h3><a href="contact">Contact Us</a></h3></li>
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">Event Planner</a>
+                </div>
+                <ul class="nav navrbar-nav">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Services<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Birthday</a></li>
+                            <li><a href="#">Showers</a></li>
+                            <li><a href="#">Wedding</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact Us</a></li>
                 </ul>
-                
-            </nav>
-        </header>
-        <main>
-             
-            <!--This is the home page flower image -->
-            <img src="img/home-pic.png" alt="Flowers on a table" />
-          
-            
-        </main>
-        <footer>
-            <p>Author: Bridgit Arika</p>
-            <p><a href="mailto:bridgitmob@gmail.com">Contact Us</a></p>
-        </footer>
+            </div>                   
+        </nav>
+        
 
     </body>
 </html>
