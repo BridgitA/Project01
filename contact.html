@@ -17,7 +17,7 @@
                     <a class="navbar-brand" href="#">Event Planner</a>
                 </div>
                 <ul class="nav navrbar-nav">
-                    <li class="active"><a href="#">Home</a></li>
+                    <li class="active"><a href="index.html">Home</a></li>
                     <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Services<span class="caret"></span></a>
                         <ul class="dropdown-menu">
                             <li><a href="birthday.html">Birthday</a></li>
@@ -30,29 +30,50 @@
                 </ul>
             </div>                   
         </nav>
-        <div class="container">
-            <form action="action_page.php">
-                <div class="form-group">
-                <label for="fname">First Name</label>
-                <input type="text" id="fname" name="firstname" placeholder="Enter your first name..." required ><br>
+            <section class="contact py-5" id="contact">
+                <div class="container py-sm-3">
+                <h1 class="heading text-capitalize mb-lg-5 mb-4">Contact Us</h1>
+                <form action="#" method="post">
+                <div class="row main-agile-sectns">
+                <div class="col-md-6 agileits-btm-spc form-text1">
+                <label>Name</label>
+                <input type="text" name="Name" placeholder="Enter Your Name" required="">
                 </div>
-                <div class="form-group">    
-                <label for="lname">Last Name</label>
-                <input type="text" id="lname" name="lastname" placeholder="Enter your last name..." ><br>
+                <div class="col-md-6 agileits-btm-spc form-text2">
+                <label>Phone Number</label>
+                <input type="text" name="Phone no" placeholder="Enter Phone Number" required="">
                 </div>
-                <div class="form-group">
-                <label for="email">Email Address</label>
-                <input type="email" id="email" name="e-mail" placeholder="Enter your e-mail address..." required ><br>
                 </div>
-                <div class="form-group">
-                <label for="inquiry">Inquiry</label><br>
-                <textarea id="inquiry" name="inquiry" placeholder="Write something..." style="height: 200px;"></textarea><br>
+                <div class="row main-agile-sectns">
+                <div class="col-md-6 agileits-btm-spc form-text1">
+                <label>Subject</label>
+                <input type="text" name="subject" placeholder="Enter Subject" required="">
                 </div>
-
-                <button type="submit" class="btn btn-default">Submit</button>
-            </form>
+                
+                <div class="col-md-6 agileits-btm-spc form-text1">
+                <label>Email</label>
+                <input type="email" name="email" placeholder="Enter Your Email" required="">
+                </div>
+                </div>
+                <div class="main-agile-sectns ">
+                <div class="agileits-btm-spc form-text2 p-0">
+                <label>Inqury</label>
+                <textarea placeholder="Enter Your Message Here"></textarea>
+                </div>
+                </div>
+                <button type="submit" class="btn">Submit</button>
+                </form>
+                </div>
+                </section>
 
         </div>
+        <footer>
+            <div><br>
+              <p>&copy;2020 All Rights Reserved</p>
+
+            </div>
+          </footer>
+        
 
          
     </body>
