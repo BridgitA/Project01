@@ -84,3 +84,9 @@ border: 2px solid #00bbd1;
 #contact1{
     text-align: center;
 }
+.center{
+    display: block;
+    margin-left: 0;
+    margin-right: 0;
+    
+}
