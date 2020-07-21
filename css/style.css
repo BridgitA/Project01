@@ -8,13 +8,12 @@ body{
     text-align: center;
 
 }
-.column{
+/*.column{
     float: left;
     width: 50%;
-    padding: 10px;
-    margin: 0;
 
-}
+} */
+
 .greet{
     text-align: center;
 }
