@@ -91,3 +91,9 @@ border: 2px solid #00bbd1;
     margin-right: 0;
     
 }
+#thanks{
+    text-align: center;
+}
+#lastitem{
+    font-style: italic;
+}
